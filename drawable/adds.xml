@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="100dp"
+    android:viewportWidth="26"
+    android:viewportHeight="26">
+
+
+    <!-- Text line inside ad -->
+    <path
+        android:fillColor="#fff"
+        android:pathData="M5,8h18v2H5z" />
+
+    <!-- Small line -->
+    <path
+        android:fillColor="#fff"
+        android:pathData="M5,14h10v1.5H5z" />
+</vector>

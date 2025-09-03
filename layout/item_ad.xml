@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="12dp">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:padding="12dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="RedundantNamespace,UselessParent"
+        android:layout_toStartOf="@+id/btnDelete"
+        android:layout_toLeftOf="@+id/btnDelete">
+
+    <TextView
+        android:id="@+id/tvAdvertiserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:text="Advertiser"/>
+
+    <TextView
+        android:id="@+id/tvCompanyname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:text="Company name"/>
+        <TextView
+            android:id="@+id/tvCompanyadd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Company address"/>
+
+        <TextView
+        android:id="@+id/tvAdName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:text="Ad Name"/>
+
+
+    </LinearLayout>
+    <ImageButton
+        android:id="@+id/btnDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/ic_delete"
+        android:contentDescription="@string/delete"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        android:padding="8dp"
+        android:background="?attr/selectableItemBackgroundBorderless"/>
+</RelativeLayout>

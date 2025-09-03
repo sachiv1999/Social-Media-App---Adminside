@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/i1"
+        android:title="User List" />
+    <item
+        android:id="@+id/i2"
+        android:title="Post List" />
+    <item
+        android:id="@+id/i3"
+        android:title="Friend Requests" />
+    <item
+        android:id="@+id/i4"
+        android:title="Flowers" />
+    <item
+        android:id="@+id/i5"
+        android:title="Adds" />
+    <item
+        android:id="@+id/i6"
+        android:title="Sub" />
+</menu>

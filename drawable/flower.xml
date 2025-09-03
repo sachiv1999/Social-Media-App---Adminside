@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="90dp"
+    android:viewportWidth="26"
+    android:viewportHeight="26">
+
+    <!-- Main person -->
+    <path
+        android:fillColor="#fff"
+        android:pathData="M12,12c2.21,0 4,-1.79 4,-4s-1.79,-4 -4,-4 -4,1.79 -4,4 1.79,4 4,4z" />
+    <path
+        android:fillColor="#fff"
+        android:pathData="M6,20v-1c0,-2.21 3.58,-4 6,-4s6,1.79 6,4v1H6z" />
+
+    <!-- Secondary person (follower) -->
+    <path
+        android:fillColor="#fff"
+        android:pathData="M4,10c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z" />
+    <path
+        android:fillColor="#fff"
+        android:pathData="M2,16v-0.5c0,-1.38 1.12,-2.5 2.5,-2.5H7c0.83,0 1.5,0.67 1.5,1.5V16H2z" />
+</vector>
